@@ -1,5 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import Header from './Header'
+import Hero from './Hero'
+import NewArrival from './NewArrivel'
+import BagTypes from './BagTypes'
 
 class App extends Component {
   constructor() {
@@ -13,6 +16,9 @@ class App extends Component {
     return (
       <Fragment>
         <Header />
+        <Hero />
+        <NewArrival />
+        <BagTypes />
       </Fragment>
     )
   }

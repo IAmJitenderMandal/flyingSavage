@@ -1,0 +1,36 @@
+.bagTypes {
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.firstSec, .secondSec, .thirdSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.firstSec {
+    background-image: url('../images/adult-adventure-back-view-1208384.jpg');
+}
+
+.secondSec {
+    background-image: url('../images/backpack-climber-cold-868096.jpg');
+}
+
+.thirdSec {
+    background-image: url('../images/adventure-backpack-climb-939716.jpg');
+}
+
+.type_text {
+    h3 {
+        font-size: 2rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: $gray;
+    }
+}

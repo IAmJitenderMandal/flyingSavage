@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
 @import './variables';
-@import "./header";
+@import './header';
+@import './hero';
+@import './newArrivel';
+@import './bagTypes';
 
 * {
     padding: 0px;
@@ -16,6 +19,7 @@
 body, html {
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 ul, li {
